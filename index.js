@@ -14,7 +14,7 @@ function transformHtml(externalTags){
     var writeStream = node.createWriteStream()
     // insert external tags
     externalTags.forEach(function(tag){
-      writeStream.write(TAG_START+' src="'+tag+'" '+TAG_END)
+      writeStream.write(TAG_START+' href="'+tag+'" '+TAG_END)
     })
     // append original content of head
     readStream.pipe(writeStream)

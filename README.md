@@ -5,10 +5,10 @@ Transform stream for injecting css tags into html.
 ### example:
 
 ```js
-var injectScripts = require('html-inject-css')
+var injectCss = require('html-inject-css')
 
 process.stdin
-.pipe( injectScripts(['./main.css', './extra.css']) )
+.pipe( injectCss(['./main.css', './extra.css']) )
 .pipe( process.stdout )
 ```
 
@@ -18,7 +18,7 @@ input:
 ```
 output:
 ```html
-<html><head><link src="./main.css" rel=stylesheet><link src="./extra.css" rel=stylesheet></head><body>hello</body></html>
+<html><head><link href="./main.css" rel=stylesheet><link href="./extra.css" rel=stylesheet></head><body>hello</body></html>
 ```
 
 ### cli
