@@ -1,0 +1,30 @@
+{
+  "name": "html-inject-css",
+  "version": "0.0.1",
+  "description": "Transform stream for injecting stylesheet tags into html.",
+  "main": "index.js",
+  "bin": {
+    "htmlinjectcss": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/html-inject-css.git"
+  },
+  "keywords": [
+    "inject",
+    "css",
+    "stream"
+  ],
+  "author": "Shahrul Nizam Selamat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syarul/html-inject-css/issues"
+  },
+  "homepage": "https://github.com/syarul/html-inject-css#readme",
+  "dependencies": {
+    "trumpet": "^1.7.2"
+  }
+}
