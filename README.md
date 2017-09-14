@@ -1,4 +1,4 @@
-# html-inject-script
+# html-inject-css
 
 Transform stream for injecting css tags into html.
 
